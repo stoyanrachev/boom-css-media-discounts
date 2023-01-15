@@ -27,3 +27,11 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+.discounts{
+ display: block; 
+}
+@media (min-width: 600px) {
+  .discounts {
+    display: none;
+  }
+}
